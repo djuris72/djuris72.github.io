@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dušan Đuriš — Software Engineer from Novi Sad, Serbia. Building intelligent systems and full-stack web experiences." />
+  <meta name="keywords" content="software engineer, full-stack, machine learning, AI, Python, Java, Spring Boot, Novi Sad" />
+  <meta name="author" content="Dušan Đuriš" />
+  <meta property="og:title" content="Dušan Đuriš — Software Engineer" />
+  <meta property="og:description" content="Building intelligent systems and full-stack web experiences." />
+  <meta property="og:type" content="website" />
+  <title>Dušan Đuriš — Software Engineer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ───────────────────────────────────────────────── -->
+  <header class="nav-wrapper" id="navbar">
+    <nav class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Dušan Đuriš home">
+        <span class="logo-initials">DD</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about"    class="nav-link" data-section="about">About</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact"  class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ─── HERO ─────────────────────────────────────────────────────── -->
+    <section class="hero" id="home">
+      <!-- Animated background grid -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Floating code blobs -->
+      <div class="hero-code-blobs" aria-hidden="true" id="codeBlobs"></div>
+      <!-- Glow orbs -->
+      <div class="glow glow-1" aria-hidden="true"></div>
+      <div class="glow glow-2" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="hero-dot"></span>
+          <span class="mono">Available for opportunities</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm<br />
+          <span class="hero-name">Dušan Đuriš</span>
+        </h1>
+
+        <p class="hero-subtitle">Software Engineer building<br class="br-desktop" /> intelligent systems &amp; full-stack experiences</p>
+
+        <p class="hero-desc">I build modern software solutions — from scalable web applications to AI-powered systems.</p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact"  class="btn btn-ghost">Contact Me</a>
+        </div>
+
+        <div class="hero-meta">
+          <span class="hero-location"><i class="fa-solid fa-location-dot"></i> Novi Sad, Serbia</span>
+          <span class="hero-divider"></span>
+          <a href="https://github.com/djuris72" target="_blank" rel="noopener" class="hero-gh">
+            <i class="fa-brands fa-github"></i> djuris72
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="t-dot t-red"></span>
+          <span class="t-dot t-yellow"></span>
+          <span class="t-dot t-green"></span>
+          <span class="t-title mono">~ dusan@portfolio</span>
+        </div>
+        <div class="terminal-body mono" id="terminalBody"></div>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT ─────────────────────────────────────────────────────── -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag mono">01 / about</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio">
+            <p class="about-lead">
+              I enjoy building things — from full-stack web apps with databases, to AI models that classify images or recognize license plates. I love tackling problems that sit at the intersection of <span class="accent">software</span> and <span class="highlight">intelligence</span>.
+            </p>
+            <p class="about-body">
+              Passionate software engineer focused on solving problems through technology. I enjoy creating systems that combine software engineering with intelligent solutions. Currently a final-year Software Engineering student at the University of Novi Sad, with a background in IT from secondary school.
+            </p>
+            <div class="about-stats">
+              <div class="stat"><span class="stat-num">6</span><span class="stat-label">GitHub Repos</span></div>
+              <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Coding</span></div>
+              <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Curiosity</span></div>
+            </div>
+          </div>
+
+          <div class="about-skills">
+            <h3 class="skills-heading">Technologies</h3>
+            <div class="skills-groups">
+
+              <div class="skill-group">
+                <span class="skill-group-label mono">Languages</span>
+                <div class="skill-tags">
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">Java</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <span class="skill-group-label mono">AI / ML</span>
+                <div class="skill-tags">
+                  <span class="skill-tag accent-tag">PyTorch</span>
+                  <span class="skill-tag accent-tag">YOLOv8</span>
+                  <span class="skill-tag accent-tag">OpenCV</span>
+                  <span class="skill-tag accent-tag">EasyOCR</span>
+                  <span class="skill-tag accent-tag">scikit-learn</span>
+                  <span class="skill-tag accent-tag">Jupyter</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <span class="skill-group-label mono">Backend</span>
+                <div class="skill-tags">
+                  <span class="skill-tag">Spring Boot</span>
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">Express.js</span>
+                  <span class="skill-tag">REST APIs</span>
+                  <span class="skill-tag">Maven</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <span class="skill-group-label mono">Databases</span>
+                <div class="skill-tags">
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">PostgreSQL</span>
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">Mongoose</span>
+                  <span class="skill-tag">Sequelize</span>
+                  <span class="skill-tag">Spring Data JPA</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <span class="skill-group-label mono">Frontend &amp; Tools</span>
+                <div class="skill-tags">
+                  <span class="skill-tag">Thymeleaf</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">GitHub</span>
+                  <span class="skill-tag">Linux</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROJECTS ──────────────────────────────────────────────────── -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag mono">02 / projects</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-sub">Real work from my GitHub — built to learn, built to ship.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: ANPR (Bachelor's thesis) — featured -->
+          <article class="project-card project-featured">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-car-side"></i></div>
+                <div class="project-badges">
+                  <span class="badge badge-featured">Thesis</span>
+                  <span class="badge badge-ai">AI / CV</span>
+                </div>
+              </div>
+              <h3 class="project-name">ANPR System</h3>
+              <p class="project-desc">
+                Automatic Number Plate Recognition system built as a bachelor's thesis. Three approaches: classical CV pipeline, custom CNN classifier, and fine-tuned YOLOv8 nano — compared rigorously on real-world plate data.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">YOLOv8</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">EasyOCR</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/djuris72/reading-and-recognizing-license-plates" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Web Shop -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                <div class="project-badges">
+                  <span class="badge badge-fullstack">Full-Stack</span>
+                </div>
+              </div>
+              <h3 class="project-name">Web Shop</h3>
+              <p class="project-desc">
+                Full-stack e-commerce application showcasing hybrid database architecture — MongoDB for product catalog &amp; price history, PostgreSQL for users and orders. REST API backend with Express.js.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/djuris72/web-shop" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: miniUpwork -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="project-badges">
+                  <span class="badge badge-fullstack">Full-Stack</span>
+                </div>
+              </div>
+              <h3 class="project-name">miniUpwork</h3>
+              <p class="project-desc">
+                A simplified freelance marketplace platform inspired by Upwork. Built with Spring Boot, Thymeleaf, and MySQL — featuring job listings, bidding, and a clean MVC architecture.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Thymeleaf</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Spring Data JPA</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/djuris72/miniUpwork" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: CNN Dog vs Cat -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="project-badges">
+                  <span class="badge badge-ai">AI / ML</span>
+                </div>
+              </div>
+              <h3 class="project-name">CNN Image Classifier</h3>
+              <p class="project-desc">
+                Convolutional Neural Network built in PyTorch to classify images of dogs and cats. Trained from scratch on labeled image data — learning feature extraction and visual pattern recognition.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">CNN</span>
+                <span class="tech-tag">Jupyter</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/djuris72/projekat_pas_macka" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: RaRoLP -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="project-badges">
+                  <span class="badge badge-ai">AI / CV</span>
+                </div>
+              </div>
+              <h3 class="project-name">RaRoLP</h3>
+              <p class="project-desc">
+                Recognition and reading of license plates — an earlier computer vision exploration using classical techniques, serving as the research foundation for the full ANPR bachelor's thesis system.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">Computer Vision</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/djuris72/RaRoLP" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Residents SK Website -->
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
+                <div class="project-badges">
+                  <span class="badge badge-web">Web</span>
+                </div>
+              </div>
+              <h3 class="project-name">Residents SK</h3>
+              <p class="project-desc">
+                Professional landing page for a local automotive industry representative in Slovakia. Clean, modern design focused on presentation and conversion — pure HTML, CSS, JavaScript.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/djuris72/residents_sk_website" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-cta">
+          <a href="https://github.com/djuris72" target="_blank" rel="noopener" class="btn btn-ghost">
+            <i class="fa-brands fa-github"></i> See all on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ───────────────────────────────────────────────────── -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag mono">03 / contact</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-sub">Have a project in mind, or just want to say hello? My inbox is open.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <p class="contact-intro">
+              I'm currently open to new opportunities — full-time roles, internships, or interesting freelance projects. Whether you have a question or just want to connect, feel free to reach out.
+            </p>
+
+            <div class="contact-links">
+              <a href="https://github.com/djuris72" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/du%C5%A1an-%C4%91uri%C5%A1-7053642a9/" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://instagram.com/dusan_djuris" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://x.com/djuris72" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-x-twitter"></i>
+                <span>X / Twitter</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="What's on your mind?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-status" id="formStatus" role="alert"></div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo"><span class="logo-initials">DD</span></a>
+          <p class="footer-tagline">Building intelligent systems<br />and full-stack experiences.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <span class="footer-nav-head">Navigate</span>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="Social links">
+          <span class="footer-nav-head">Connect</span>
+          <ul>
+            <li><a href="https://github.com/djuris72" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/du%C5%A1an-%C4%91uri%C5%A1-7053642a9/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://instagram.com/dusan_djuris" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://x.com/djuris72" target="_blank" rel="noopener">X / Twitter</a></li>
+          </ul>
+        </nav>
+
+
+      </div>
+
+      <div class="footer-bottom">
+        <span class="mono footer-copy">© 2026 Dušan Đuriš. All rights reserved.</span>
+        <span class="footer-made mono">Have a nice day!</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
