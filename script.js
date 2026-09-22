@@ -192,7 +192,7 @@
   // Add .reveal to all section children that should animate in
   const targets = document.querySelectorAll(
     '.section-head, .about-bio, .about-skills, .stat, ' +
-    '.skill-group, .project-card, .contact-info, .contact-form, ' +
+    '.skill-group, .project-card, .experience-card, .contact-info, .contact-form, ' +
     '.footer-brand, .footer-nav'
   );
 

@@ -931,3 +931,79 @@ img { max-width: 100%; display: block; }
   }
   .hero-grid, .hero-code-blobs, .glow { display: none; }
 }
+
+/* ── Experience section ──────────────────────────────────────── */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.experience-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: border-color .25s ease, transform .25s ease;
+}
+
+.experience-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.experience-card-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.75rem;
+}
+
+.experience-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(63,185,80,.12);
+  color: #3fb950;
+  font-size: 1.25rem;
+}
+
+.experience-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem;
+  margin-bottom: .5rem;
+}
+
+.experience-role {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.experience-period {
+  font-size: .8rem;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.experience-desc {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  .experience-card-inner { flex-direction: column; gap: 1rem; }
+  .experience-top { flex-direction: column; align-items: flex-start; }
+}
